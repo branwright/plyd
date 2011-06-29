@@ -1,4 +1,6 @@
 Plyd::Application.routes.draw do
+  resources :books
+
   resources :universes
 
   # The priority is based upon order of creation:
