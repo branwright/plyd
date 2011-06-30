@@ -7,27 +7,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Sites/plyd/db/migrate/20110622023959_create_universes.rb",
-			"settings":
-			{
-				"buffer_size": 223,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Sites/plyd/app/views/universes/_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 734,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/C/Sites/plyd/db/seeds.rb",
 		"/C/Users/Owner/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Users/Owner/Desktop/seeds.rb",
+		"/C/Sites/plyd/db/migrate/20110622023959_create_universes.rb",
+		"/C/Sites/plyd/app/views/universes/_form.html.erb",
+		"/C/Sites/plyd/db/migrate/20110629031710_create_books.rb",
+		"/C/Sites/plyd/app/views/books/_form.html.erb",
 		"/C/Users/Owner/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings"
 	],
 	"find_in_files":
@@ -44,6 +34,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Product"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -51,6 +42,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Universe"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -68,63 +60,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Sites/plyd/db/migrate/20110622023959_create_universes.rb",
-					"settings":
-					{
-						"buffer_size": 223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								223
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Sites/plyd/app/views/universes/_form.html.erb",
-					"settings":
-					{
-						"buffer_size": 734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								556,
-								556
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -171,6 +108,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190,
+	"side_bar_width": 195,
 	"status_bar_visible": true
 }
