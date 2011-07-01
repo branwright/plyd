@@ -3,6 +3,11 @@ require 'test_helper'
 class UniversesControllerTest < ActionController::TestCase
   setup do
     @universe = universes(:one)
+    @update = {
+      :title => 'Lorem Ipsum',
+      :description => 'Tuning with mo.',
+      :image_url => '/images/universes/covers/mo.jpg'
+    }
   end
 
   test "should get index" do
@@ -18,7 +23,7 @@ class UniversesControllerTest < ActionController::TestCase
 
   test "should create universe" do
     assert_difference('Universe.count') do
-      post :create, universe: @universe.attributes
+      post :create, universe: @update
     end
 
     assert_redirected_to universe_path(assigns(:universe))
@@ -35,7 +40,7 @@ class UniversesControllerTest < ActionController::TestCase
   end
 
   test "should update universe" do
-    put :update, id: @universe.to_param, universe: @universe.attributes
+    put :update, id: @universe.to_param, universe: @update
     assert_redirected_to universe_path(assigns(:universe))
   end
 
